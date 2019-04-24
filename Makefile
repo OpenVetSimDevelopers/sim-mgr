@@ -122,4 +122,4 @@ clean:
 ## Check for the installed tools we require
 check:
 	@if [ ! -e /usr/bin/g++ ]; then echo "GNU C++ Compiler (g++) is not found in /usr/bin\n"; exit ; fi;
-	@if [ ! -e /usr/lib/libcgicc.so ]; then echo "CGICC Library libcgicc.so is not found in /usr/lib\n"; exit ; fi;
+	## @if [ ! -e /usr/lib/libcgicc.so ]; then echo "CGICC Library libcgicc.so is not found in /usr/lib\n"; exit ; fi;

@@ -809,6 +809,7 @@ scene_check(void )
 			{
 				if ( strcmp(trig->param_element, simmgr_shm->eventList[eventLast].eventName ) == 0 )
 				{
+					eventLast++;
 					logTrigger(trig, 0 );
 					startScene(trig->scene );
 					return;
